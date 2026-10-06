@@ -1,0 +1,49 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #172033;
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+h1 { margin-bottom: 8px; }
+.subtitle { color: #5d687c; }
+.card {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0,0,0,.08);
+}
+label { display: block; margin: 14px 0 7px; font-weight: 600; }
+textarea, select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccd3df;
+  border-radius: 10px;
+  font-size: 15px;
+}
+textarea { min-height: 130px; resize: vertical; }
+button {
+  margin-top: 18px;
+  width: 100%;
+  padding: 13px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+#status { margin-top: 12px; color: #5d687c; }
+pre {
+  white-space: pre-wrap;
+  background: #f7f9fc;
+  padding: 16px;
+  border-radius: 10px;
+  min-height: 160px;
+  line-height: 1.5;
+}
+.note { color: #667085; font-size: 14px; margin-top: 15px; }

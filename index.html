@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Study Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>AI Study Assistant</h1>
+    <p class="subtitle">A simple AI-powered study helper for students.</p>
+
+    <section class="card">
+      <label for="topic">Topic / Question</label>
+      <textarea id="topic" placeholder="Example: Explain machine learning in simple words"></textarea>
+
+      <label for="task">What do you want?</label>
+      <select id="task">
+        <option value="explain">Explain the topic</option>
+        <option value="notes">Make short notes</option>
+        <option value="questions">Generate practice questions</option>
+        <option value="roadmap">Create a learning roadmap</option>
+      </select>
+
+      <button id="generateBtn">Generate</button>
+      <div id="status"></div>
+      <pre id="output">Your result will appear here...</pre>
+    </section>
+
+    <p class="note">
+      Demo mode is included so the project works without an API key.
+      For a real AI response, connect the frontend to a secure backend/API.
+    </p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
